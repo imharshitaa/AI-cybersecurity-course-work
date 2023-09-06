@@ -1,18 +1,18 @@
 # AI-cybersecurity-work
 
 Module 1: Introduction To CEH
-Definition and scope of ethical hacking
-Legal and ethical considerations in ethical hacking
-Role of an ethical hacker in an organization
+- Definition and scope of ethical hacking 
+- Legal and ethical considerations in ethical hacking 
+- Role of an ethical hacker in an organization
 
 Module 2: Introduction to Networking
-OSI Model,
-TCP/IP Model,
-Ports, Protocols,
-Design a Subnet,
-Networking commands (Linux/Windows)
-Network Configuring using Cisco
-Packet Tracer
+- OSI Model, 
+- TCP/IP Model, 
+- Ports, Protocols,
+- Design a Subnet,
+- Networking commands (Linux/Windows)
+- Network Configuring using Cisco
+- Packet Tracer
 
 Module 3: Introduction to Linux
 Basic Linux commands and navigation
