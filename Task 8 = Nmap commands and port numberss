@@ -1,0 +1,111 @@
+--------------Nmap-------------------
+Nmap (Network Mapper) is a powerful open-source network scanning tool that is widely used for network discovery and security auditing. It's a command-line tool that allows you to explore 
+network hosts, discover open ports, identify services running on those ports, and perform various network-related tasks. 
+
+Key Features of Nmap:
+- Host Discovery: Nmap can quickly scan a range of IP addresses to identify which hosts are online. This is useful for mapping out the live hosts on a network.
+- Port Scanning: Nmap excels at port scanning. It can determine which ports on a host are open, closed, or filtered. You can specify different scanning techniques, such as TCP connect scans or SYN scans, 
+  to probe target ports.
+- Service Detection: Nmap can identify the services running on open ports and determine their versions. This is helpful for assessing the security of specific services and applications.
+- OS Fingerprinting: Nmap can attempt to guess the operating system of a target host by analyzing network responses. This helps in tailoring subsequent attacks to the target's OS.
+- Scripting Engine: Nmap includes a powerful scripting engine called NSE (Nmap Scripting Engine) that allows you to write custom scripts for advanced tasks. These scripts can automate tasks like 
+  vulnerability scanning and service enumeration.
+- Output Formats: Nmap provides various output formats, including human-readable text, XML, and grepable output, making it versatile for different purposes and integrations.
+
+Common Uses of Nmap:
+- Network Discovery: Discover live hosts on a network segment to map out the network's topology.
+- Port Scanning: Identify open ports on target systems to assess their attack surface.
+- Service Enumeration: Determine the services and versions running on open ports to identify potential vulnerabilities.
+- Vulnerability Scanning: Use Nmap scripts or third-party scripts to perform vulnerability scans and detect known security issues.
+- Firewall and Security Assessment: Assess the effectiveness of firewalls and security policies by checking which ports are open or filtered.
+- Network Auditing: Perform security audits to identify security weaknesses and misconfigurations on networked devices.
+- Penetration Testing: Nmap is often used in penetration testing to evaluate the security of systems and networks from an attacker's perspective.
+- Network Inventory Management: Maintain an inventory of devices and services running in a networked environment.
+
+
+--------------Nmap Commands-----------------
+1. Basic Host Discovery:
+   Command --> nmap -sn [target]
+   Description --> Discover live hosts on the network without scanning ports. Useful for network mapping.
+
+2. Scan Specific Ports:
+   Command --> nmap -p [ports] [target]
+   Description --> Scan specific ports on a target host. Replace [ports] with a comma-separated list of port numbers.
+
+3. Quick Scan with Service Detection:
+   Command --> nmap -F -sV [target]
+   Description --> Perform a fast scan with service detection to identify open ports and their associated services.
+
+4. OS Fingerprinting: 
+   Command --> nmap -O [target]
+   Description --> Attempt to identify the operating system of the target host by analyzing network responses.
+
+5. Scripted Scans:
+   Command --> nmap --script [script] [target]
+   Description --> Execute custom Nmap scripts (e.g., for vulnerability scanning) against the target host.
+
+6. Save Scan Results to File:
+   Command --> nmap -oN [filename] [target]
+   Description --> Save the scan results in human-readable format to a specified file (replace [filename] with the desired file name).
+
+7. Scan All Ports (Full Port Scan):
+   Command: nmap -p- [target]
+   Description: Scan all 65,535 ports on the target. Use with caution, as it can take longer and may be more conspicuous.
+
+8. UDP Port Scan:
+   Command --> nmap -sU -p [ports] [target]
+   Description --> Perform a UDP port scan on the specified ports. Some services use UDP instead of TCP.
+
+9. Scan Multiple Targets:
+   Command --> nmap [target1] [target2] ...
+   Description --> Scan multiple targets in one command.
+
+10. Exclude Hosts from Scan:
+    Command --> nmap --exclude [excluded-host] [target]
+    Description --> Exclude a specific host from the scan to avoid scanning it unintentionally.
+
+11. Verbose Output:
+    Command --> nmap -v [target]
+    Description --> Display detailed verbose output during the scan for debugging and analysis.
+
+12. Aggressive Scan:
+    Command --> nmap -A [target]
+    Description --> Enable aggressive scanning, which includes OS detection, version detection, and script scanning.
+
+13. Ping Scan (No Port Scan):
+    Command --> nmap -sn [target]
+    Description --> Perform a ping scan without scanning ports. Quickly checks if hosts are online.
+
+14. Timing Options:
+    Command --> nmap -T[0-5] [target]
+    Description --> Adjust the scan timing from 0 (paranoid) to 5 (insane). Slower timing is stealthier, while faster timing is more aggressive.
+
+15. Output Formats:
+    Command --> nmap -oX [filename.xml] [target]
+    Description --> Save scan results in various formats (XML, grepable, etc.) for analysis or integration with other tools.
+
+
+--------------port numbers--------------------
+Port 21 - FTP (File Transfer Protocol): Used for transferring files between a client and a server.
+Port 22 - SSH (Secure Shell): Used for secure remote access and administration of devices.
+Port 23 - Telnet: Used for remote terminal access (not secure, often replaced by SSH).
+Port 25 - SMTP (Simple Mail Transfer Protocol): Used for sending email.
+Port 53 - DNS (Domain Name System): Used for translating domain names into IP addresses.
+Port 80 - HTTP (Hypertext Transfer Protocol): Used for web browsing and serving web pages.
+Port 110 - POP3 (Post Office Protocol version 3): Used for retrieving email from a server.
+Port 143 - IMAP (Internet Message Access Protocol): Used for accessing and managing email on a server.
+Port 443 - HTTPS (Hypertext Transfer Protocol Secure): Used for secure web browsing (encrypted).
+Port 3389 - RDP (Remote Desktop Protocol): Used for remote desktop access on Windows systems.
+Port 389 - LDAP (Lightweight Directory Access Protocol): Used for directory services like Active Directory.
+Port 445 - SMB (Server Message Block): Used for file and printer sharing on Windows networks.
+Port 3306 - MySQL: Used for accessing MySQL databases.
+Port 5432 - PostgreSQL: Used for accessing PostgreSQL databases.
+Port 6660-6669 - Internet Relay Chat (IRC): Used for real-time chat services.
+Port 27017 - MongoDB: Used for accessing MongoDB databases.
+Port 53 - DNS (Domain Name System): Used for translating domain names into IP addresses.
+Port 161 - SNMP (Simple Network Management Protocol): Used for network management and monitoring.
+Port 68 - DHCP (Dynamic Host Configuration Protocol): Used for assigning IP addresses to devices on a network.
+Port 161 - SNMP (Simple Network Management Protocol): Used for network management and monitoring.
+
+
+
