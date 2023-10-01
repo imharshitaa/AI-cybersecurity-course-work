@@ -1,0 +1,43 @@
+-----MOBAXTERM------
+
+MobaXterm is a popular terminal emulation and remote desktop application for Windows. It combines various network tools, a terminal emulator, X server, and remote desktop capabilities into a 
+single integrated package. MobaXterm is commonly used by IT professionals, system administrators, developers, and anyone who needs to manage remote systems and network devices efficiently. 
+
+1. Terminal Emulation: 
+MobaXterm provides a robust terminal emulator that supports a variety of network protocols, including SSH, Telnet, Rlogin, and more. It allows you to connect to remote servers and network devices securely.
+
+2. X Server: 
+MobaXterm includes an X server that enables you to run graphical applications from remote Linux or Unix systems on your Windows desktop. This is particularly useful for remote development and system 
+administration tasks.
+
+3. Tabbed Interface: 
+It features a tabbed terminal interface, allowing you to manage multiple remote connections simultaneously within a single window. Each tab can have its own SSH session or terminal session.
+
+4. Session Management: 
+MobaXterm provides a session manager that allows you to save and organize your remote sessions for easy access. You can categorize sessions, save credentials, and quickly connect to frequently used hosts.
+
+5. File Transfer: 
+The application includes built-in SFTP (SSH File Transfer Protocol) and SCP (Secure Copy Protocol) clients for secure file transfers between your local machine and remote servers.
+
+6. Remote Desktop: 
+MobaXterm can also be used to connect to Windows Remote Desktop Protocol (RDP) sessions. This feature allows you to access and manage Windows servers and desktops remotely.
+
+7. Network Tools: 
+It offers a collection of network tools, such as SSH tunneling, port forwarding, network scanning, and more, to assist with network diagnostics and troubleshooting.
+
+8. Scripting and Automation: 
+MobaXterm supports scripting and automation through its scripting engine. You can create and run scripts to automate repetitive tasks and customize your workflow.
+
+9. Integration: 
+MobaXterm can be integrated with various external applications and tools, allowing you to extend its functionality. It also supports plugins and extensions.
+
+10. Customization: 
+The application is highly customizable, allowing you to adjust settings, themes, and fonts to suit your preferences and work environment.
+
+11. Professional Edition: 
+MobaXterm offers a Professional Edition with additional features, including enhanced security, support for larger sessions, and extended scripting capabilities.
+
+
+
+
+
