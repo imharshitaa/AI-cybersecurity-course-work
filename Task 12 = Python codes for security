@@ -1,0 +1,99 @@
+------------------Basic Python codes---------------
+
+1. Hello, World!
+print("Hello, World!")
+
+2. Variables and Data Types:
+name = "Alice"
+age = 30
+height = 5.8
+
+3. User Input:
+user_input = input("Enter your name: ")
+print("Hello, " + user_input)
+
+4. Conditional Statements (if-else):
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+
+5. Loops (for and while):
+for i in range(5):
+    print("Iteration", i)
+num = 0
+while num < 5:
+    print("Number:", num)
+    num += 1
+
+6. Lists (Arrays):
+fruits = ["apple", "banana", "cherry"]
+print(fruits[1])  # Accessing elements
+fruits.append("orange")  # Adding an element
+
+7. Functions:
+def greet(name):
+    return "Hello, " + name
+message = greet("Bob")
+
+8. Dictionaries (Key-Value Pairs):
+person = {
+    "name": "Alice",
+    "age": 30,
+    "city": "New York"
+}
+print(person["age"])
+
+9. Exception Handling:
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Division by zero is not allowed.")
+
+10. File Handling:
+# Writing to a file
+with open("example.txt", "w") as file:
+    file.write("Hello, File!")
+# Reading from a file
+with open("example.txt", "r") as file:
+    content = file.read()
+    print(content)
+
+
+-----------------PYTHON FUNCTIONS---------------------
+
+print(): Displays output to the console.
+input(): Reads user input from the console.
+len(): Returns the length of an object (e.g., a string or list).
+type(): Returns the type of an object.
+int(), float(), str(): Convert values between data types.
+range(): Generates a sequence of numbers.
+sum(): Calculates the sum of elements in an iterable.
+max(), min(): Returns the maximum or minimum value in an iterable.
+abs(): Returns the absolute value of a number.
+round(): Rounds a number to a specified number of decimal places.
+sorted(): Sorts an iterable.
+append(): Adds an element to the end of a list.
+extend(): Appends elements from an iterable to a list.
+insert(): Inserts an element at a specific position in a list.
+remove(): Removes the first occurrence of an element from a list.
+pop(): Removes and returns an element at a specified index.
+index(): Returns the index of the first occurrence of an element.
+count(): Counts the number of occurrences of an element in a list.
+sort(): Sorts a list in ascending order.
+reverse(): Reverses the order of elements in a list.
+keys(): Returns a list of keys in a dictionary.
+values(): Returns a list of values in a dictionary.
+items(): Returns a list of key-value pairs in a dictionary.
+get(): Retrieves the value for a given key, with a default value if the key is not found.
+pop(): Removes and returns the value for a given key.
+update(): Updates a dictionary with key-value pairs from another dictionary.
+
+--------------PYTHON FOR CYBERSECURITY--------------------
+
+In the field of cybersecurity, Python plays a pivotal role as a versatile programming language. It is extensively used for tasks such as network scanning and enumeration, vulnerability 
+assessments, penetration testing, web application testing, and password cracking. Python's simplicity, readability, and a rich ecosystem of libraries and tools make it an ideal choice for 
+cybersecurity professionals and ethical hackers. Whether it's creating custom network scanners, automating web application security tests, or developing and scripting exploits, Python's 
+flexibility and adaptability empower cybersecurity experts to tackle diverse challenges effectively, making it an indispensable asset in safeguarding digital environments and identifying vulnerabilities.
+
+
